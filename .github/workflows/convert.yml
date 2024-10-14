@@ -8,13 +8,12 @@ on:
       GSI:
         description: 'Samfw Link For AP'
         required: true
-        default: ' AP LINK FROM SAMFW'
+        default: https://07-samfw.cloud/v2/IxJCDiMnLgUSEQJBMxc7BgEvLgsuCB4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/NEApOSFAHgczAEEKPDs5HTIRHw0uOCMGMgsgGg0sIBI8OzMgLwsvFDw2QScDCwc/ODECFDwLIBQzLEErDTYhLDI2BjgJAyEOAQchQTUsDRQDLyk9DwseAwM4BkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCDS8gJg0DIjAeOyE8Fwc7Pw0sLiMeLD4gIxY7MDMsKTwvA0EELzE5ADgxMDMNCzQwHgMjQB4DNBQ4MEEHLwsiOThALyQhOEEmMic+QDhAHgo1OCAmAy8vIy8ILCYNMS8SLwc+HyE4Myk4MT4DIwMNKy4nBz8JETA2HhIUPTU4IEImJxQOAxcvLBIsIzEPODsUNRYpHQMXMCszGzMRIywpQTMRMxQuMS89LyQsOiM4BkIjAzQ/ARY2MSMDBQYBDRMT
       
       Firmware:
         description: 'Firmware version'
         required: true
-        default: 'EG - :A055FXXU2AWK1'
-
+        default: A055FXXU2BWL6
 jobs:
   Build:
     runs-on: ubuntu-latest
